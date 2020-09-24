@@ -1,0 +1,5 @@
+  window.onbeforeunload = function () {
+        dtl = [];
+        NAjax('/SuppliesTransaction/deactivateUser', dtl, function (data) {
+        });
+    };
